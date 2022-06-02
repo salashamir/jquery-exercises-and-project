@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>jQuery Movie App</title>
+  </head>
+  <body>
+    <h1 id="heading">jQuery Movies!🎬</h1>
+    <div class="container">
+      <form id="movie-form">
+        <div class="form-input">
+          <label class="label">
+            <span>Movie title:</span>
+            <input type="text" name="movie-title" id="movie-title" />
+          </label>
+        </div>
+        <div class="form-input">
+          <label class="label">
+            <span>Movie rating:</span>
+            <input type="text" name="movie-rating" id="movie-rating" />
+          </label>
+        </div>
+        <button type="submit" id="add-btn">Add</button>
+      </form>
+      <ul id="movie-list"></ul>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

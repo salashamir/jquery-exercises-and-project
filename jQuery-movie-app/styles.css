@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  color: #333;
+  background-color: aliceblue;
+}
+
+#heading {
+  margin: 3rem auto;
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+  color: #555;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 9px;
+  box-shadow: 0 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  width: 90%;
+  max-width: 60rem;
+  margin-inline: auto;
+}
+
+label span {
+  display: inline-block;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  margin-bottom: 3.2rem;
+}
+
+.form-input {
+  margin-bottom: 1rem;
+}
+
+input {
+  font-family: inherit;
+  width: 100%;
+  border: 2px solid rgb(123, 212, 248);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  font-size: 1.8rem;
+  color: rgb(0, 83, 115);
+  transition: all 0.2 ease;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid rgb(43, 173, 224);
+  box-shadow: 0 3px 6px 3px rgba(0, 0, 0, 0.2);
+}
+
+#add-btn {
+  font-size: 2rem;
+  border: none;
+  background-color: rgb(123, 212, 248);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  width: 30%;
+  display: block;
+  margin-inline: auto;
+}
+
+#add-btn:hover {
+  cursor: pointer;
+  background-color: rgb(71, 193, 242);
+}
+
+.delete-btn {
+  color: red;
+}
+.delete-btn:hover {
+  cursor: pointer;
+}
+
+#movie-list {
+  list-style-type: none;
+}
+
+.movie-item {
+  color: #555;
+  font-size: 2.2rem;
+  background-color: #fff;
+  padding: 0.7rem 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  border: 3px solid rgb(195, 195, 195);
+  margin-bottom: 0.5rem;
+}
